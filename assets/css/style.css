@@ -1,0 +1,29 @@
+textarea.form-control {
+	border: 2px solid #8b8378;
+}
+
+
+
+textarea.form-control::placeholder{
+	color: #000;
+	font-weight: 550;
+	font-size: 1.3em;
+}
+
+textarea[placeholder="Insert text"]::placeholder{
+	color: rgba(0, 0, 0, 0.3);
+	font-weight: normal;
+	font-size: 2.2rem;
+	padding: 0.15em 0 0 1.3em;
+}
+
+button.btn {
+	cursor: pointer;
+	font-weight: 900;
+}
+
+div.alert-danger{
+
+	font-size: 1.1em;
+	font-weight: bold;
+}
